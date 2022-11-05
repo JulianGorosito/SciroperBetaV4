@@ -1,0 +1,8 @@
+body{ /*Modificar el fondo */
+	background-color:#333941; /*Fondo de color*/
+}
+
+* {
+	margin: 0px; /*coloca el Margen General en 0 */
+	padding: 0px; /*coloca el Padding General en 0 */
+}

@@ -1,0 +1,187 @@
+* {
+	margin: 0px; /*coloca el Margen General en 0 */
+	padding: 0px; /*coloca el Padding General en 0 */
+}
+
+.Cont-Padre {
+  width: 99.57%;
+  height: 99.7%;
+
+  position: absolute;
+  background-image: url('img/Fondo_.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+
+  /* border: 2px solid red; */
+}
+
+.Cont-Partida{
+  width: 90%;
+  height: 70%;
+
+  margin: auto;
+
+  /* border: 2px solid orange; */
+}
+
+.Cont-Eleccion {
+  max-width: 35%;
+  max-height: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+
+  background-image: url('img/Barra.png');
+  background-size:100%;
+  background-repeat: no-repeat;
+
+  display: flex; /* Modo flex */
+  flex-direction: row; /* colocar en fila */
+  justify-content: center;
+  z-index: 3; /*Posicion z en 3*/
+
+  /* border: 2px solid green; */
+}
+
+.Eleccion img {
+  max-width: 70px !important; /*ancho al 100% */
+  max-height: 65%; /*altura al 100% */
+
+  padding-top: 25%;
+  margin-inline: 35px;
+  cursor: pointer;
+
+  /* border: 2px solid yellow; */
+}
+
+.Cont-SistemaPuntos{
+  width: 1100px;
+  height: 200px;
+
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+
+  font-family: PIXEL;
+	font-size: 40px;
+  color: white;
+
+  display: flex;
+  flex-direction: row; /* colocar en fila */
+  z-index: 3;
+  justify-content: space-between;
+
+  /* border: 2px solid black; */
+}
+
+#Jugador-Puntos{
+  margin-top: 50px;
+}
+
+#Pc-Puntos{
+  margin-top: 50px;
+}
+
+#Etiqueta-Usuario{
+  width: 110px;
+  height: 15%;
+
+  margin-top: 40px;
+  padding: 15px;
+
+  color: white;
+  font-size: 35px;
+  font-family: PIXEL;
+  text-align: center;
+
+  border: 4px solid #fef3c0;
+}
+
+#Etiqueta-PC{
+  width: 110px;
+  height: 15%;
+
+  margin-top: 40px;
+  padding: 15px;
+
+  color: white;
+  font-size: 35px;
+  font-family: PIXEL;
+  text-align: center;
+
+  border: 4px solid #fef3c0;
+}
+
+.Resultado{
+  margin-top: 25px;
+
+  font-family: PIXEL;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
+
+.ResultadoImg img{
+  margin-top: 25px;
+  margin-left: 40.2%;
+  margin-right: auto;
+
+  font-family: PIXEL;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+
+  /* border: 2px solid black; */
+}
+
+
+.titulo img{
+  width: auto; /*ancho al 100% */
+  height: auto; /*altura al 100% */
+
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 36.7%;
+  margin-right: auto;
+
+  /* font-family: PIXEL;
+	font-size: 70px;
+	text-align: center;
+	color: white; */
+  /* border: 5px solid yellow; */
+}
+
+.info-juego{
+  margin-bottom: 30px;
+
+  font-family: 'PIXEL';
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+@font-face { /*Esto agrega una font propia*/
+  font-family: 'PIXEL';
+  src: url('./Fonts/PIXEL-LI.TTF') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ImagenesElegidas img{
+  max-width: 70px !important; /*ancho al 100% */
+  max-height: 65%; /*altura al 100% */
+
+  margin-top: 20px;
+  padding: 15px;
+  margin-inline: 30px; /*margen en linea*/
+
+  border: 5px solid #fef3c0;
+}

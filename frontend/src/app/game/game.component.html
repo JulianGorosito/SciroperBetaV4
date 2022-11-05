@@ -1,0 +1,55 @@
+<div class="Cont-Padre">
+  <div class="Cont-Partida">
+
+    <div class="titulo">
+      <img src="assets/Img/logo.png">
+    </div>
+
+    <!-- <div class="Ventana">
+      hola
+    </div> -->
+
+    <div class="Cont-SistemaPuntos">
+
+      <div class="ImagenesElegidas">
+        <img src="{{ imgEleccionJugador }}">
+      </div>
+
+      <div id="Etiqueta-Usuario">{{ NombreJugador }}</div>
+
+      <span id="Jugador-Puntos">{{ PuntosJugador }}</span><span id="Pc-Puntos">{{ PuntosEnemigo }}</span>
+
+      <div id="Etiqueta-PC">Pc</div>
+
+      <div class="ImagenesElegidas">
+        <img src="{{ imgEleccionEnemigo }}">
+        </div>
+
+    </div>
+
+    <div class="ResultadoImg">
+      <img src="{{ImgResultado}}">
+    </div>
+
+  </div>
+
+  <p class="info-juego">Selecciona tu jugada</p>
+
+  <div class="Cont-Eleccion">
+
+    <div class="Eleccion" id="Piedra" (click)="iniciar('r')">
+    <img src="assets/Img/Piedra.png">
+    </div>
+
+    <div class="Eleccion" id="Papel" (click)="iniciar('p')">
+    <img src="assets/Img/Papel.png">
+    </div>
+
+    <div class="Eleccion" id="Tijeras" (click)="iniciar('s')">
+    <img src="assets/Img/Tijeras.png">
+    </div>
+
+  </div>
+
+</div>
+
